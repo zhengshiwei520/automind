@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "ai-writing-tools-comparison",
+    "title_en": "Best AI Writing Tools in 2026: In-Depth Comparison & Review",
+    "title_zh": "2026年最佳AI写作工具深度对比评测",
+    "type": "comparison",
+    "word_count": 2500,
+    "target_affiliates": [
+      "Writesonic",
+      "Jasper AI",
+      "Semrush"
+    ],
+    "seo_keywords": [
+      "best AI writing tools",
+      "AI writing software review",
+      "Writesonic vs Jasper"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction / 引言",
+      "purpose": "Hook reader, state the problem this article solves"
+    },
+    {
+      "heading": "Why This Matters / 为什么重要",
+      "purpose": "Establish context and reader pain points"
+    },
+    {
+      "heading": "Top Recommendations / 推荐列表",
+      "purpose": "Main content - compare/review options"
+    },
+    {
+      "heading": "Detailed Comparison / 详细对比",
+      "purpose": "Feature-by-feature comparison table or analysis"
+    },
+    {
+      "heading": "Pricing / 价格对比",
+      "purpose": "Cost breakdown and value analysis"
+    },
+    {
+      "heading": "Who Should Choose What / 如何选择",
+      "purpose": "Decision guide based on use case"
+    },
+    {
+      "heading": "Final Verdict / 最终结论",
+      "purpose": "Summary and recommendation"
+    },
+    {
+      "heading": "FAQs / 常见问题",
+      "purpose": "Address common reader questions"
+    }
+  ],
+  "affiliate_disclosure": "This article contains affiliate links. If you purchase through these links, we may earn a commission at no extra cost to you."
+}

@@ -1,0 +1,139 @@
+{
+  "generated_at": "2026-05-30T00:02:00.572152",
+  "total_topics": 6,
+  "topics": [
+    {
+      "id": "ai-writing-tools-comparison",
+      "title_en": "Best AI Writing Tools in 2026: In-Depth Comparison & Review",
+      "title_zh": "2026年最佳AI写作工具深度对比评测",
+      "target_en": "Writesonic (30% recurring), Jasper (30%)",
+      "target_zh": "AI写作工具评测（暂不区分佣金）",
+      "type": "comparison",
+      "word_count": 2500,
+      "affiliates": [
+        "Writesonic",
+        "Jasper AI",
+        "Semrush"
+      ],
+      "platforms": [
+        "medium",
+        "zhihu",
+        "blog"
+      ],
+      "seo_keywords": [
+        "best AI writing tools",
+        "AI writing software review",
+        "Writesonic vs Jasper"
+      ]
+    },
+    {
+      "id": "web-hosting-for-beginners",
+      "title_en": "Best Web Hosting for Beginners 2026: Affordable & Reliable Options",
+      "title_zh": "2026年新手建站推荐：最值得入门的虚拟主机",
+      "target_en": "Hostinger (60% first purchase)",
+      "target_zh": "建站服务推荐",
+      "type": "review",
+      "word_count": 2000,
+      "affiliates": [
+        "Hostinger",
+        "Cloudways"
+      ],
+      "platforms": [
+        "medium",
+        "blog"
+      ],
+      "seo_keywords": [
+        "best web hosting 2026",
+        "affordable hosting",
+        "Hostinger review"
+      ]
+    },
+    {
+      "id": "seo-tools-guide",
+      "title_en": "Semrush vs Ahrefs vs Moz: Which SEO Tool Should You Choose in 2026?",
+      "title_zh": "Semrush vs Ahrefs vs Moz：2026年SEO工具终极对比",
+      "target_en": "Semrush (40% first purchase)",
+      "target_zh": "SEO工具对比",
+      "type": "comparison",
+      "word_count": 3000,
+      "affiliates": [
+        "Semrush"
+      ],
+      "platforms": [
+        "medium",
+        "zhihu",
+        "blog"
+      ],
+      "seo_keywords": [
+        "Semrush review",
+        "best SEO tool 2026",
+        "SEO tool comparison"
+      ]
+    },
+    {
+      "id": "ai-image-generation",
+      "title_en": "Best AI Image Generators in 2026: From Midjourney to DALL-E 3",
+      "title_zh": "2026年最佳AI图像生成工具全面评测",
+      "target_en": "Canva ($36/referral)",
+      "target_zh": "AI绘图工具评测",
+      "type": "review",
+      "word_count": 2500,
+      "affiliates": [
+        "Canva"
+      ],
+      "platforms": [
+        "medium",
+        "zhihu",
+        "xiaohongshu"
+      ],
+      "seo_keywords": [
+        "best AI image generator",
+        "Midjourney alternative",
+        "AI art tools 2026"
+      ]
+    },
+    {
+      "id": "small-business-email-marketing",
+      "title_en": "Email Marketing for Small Business: Best Tools & Strategies 2026",
+      "title_zh": "小企业邮件营销指南：2026年最佳工具与策略",
+      "target_en": "ConvertKit (30% recurring)",
+      "target_zh": "邮件营销工具",
+      "type": "guide",
+      "word_count": 2000,
+      "affiliates": [
+        "ConvertKit"
+      ],
+      "platforms": [
+        "medium",
+        "blog"
+      ],
+      "seo_keywords": [
+        "email marketing tools",
+        "ConvertKit review",
+        "small business email"
+      ]
+    },
+    {
+      "id": "ecommerce-platforms",
+      "title_en": "Shopify vs WooCommerce vs BigCommerce: Which is Best in 2026?",
+      "title_zh": "Shopify vs WooCommerce vs BigCommerce：2026年电商平台对比",
+      "target_en": "Shopify ($58/referral)",
+      "target_zh": "电商平台对比",
+      "type": "comparison",
+      "word_count": 3000,
+      "affiliates": [
+        "Shopify"
+      ],
+      "platforms": [
+        "medium",
+        "zhihu",
+        "blog"
+      ],
+      "seo_keywords": [
+        "Shopify review",
+        "best ecommerce platform",
+        "Shopify vs WooCommerce"
+      ]
+    }
+  ]
+}

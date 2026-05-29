@@ -1,0 +1,25 @@
+{
+  "description": "High-commission affiliate programs for automated content monetization",
+  "global": {
+    "ai_saas": [
+      {"name": "Writesonic", "url": "https://writesonic.com/affiliate", "commission": "30% recurring", "cookie_days": 60, "niche": "AI writing", "priority": 1},
+      {"name": "Semrush", "url": "https://semrush.com/affiliates/", "commission": "40% first purchase, 20% recurring", "cookie_days": 120, "niche": "SEO tools", "priority": 1},
+      {"name": "Hostinger", "url": "https://hostinger.com/affiliates", "commission": "60% first purchase, 30% renewals", "cookie_days": 90, "niche": "Web hosting", "priority": 1},
+      {"name": "Shopify", "url": "https://shopify.com/partners", "commission": "~$58/referral avg", "cookie_days": 30, "niche": "E-commerce", "priority": 2},
+      {"name": "Canva", "url": "https://canva.com/affiliates/", "commission": "A$36/referral for Pro", "cookie_days": 30, "niche": "Design tools", "priority": 2},
+      {"name": "ConvertKit", "url": "https://convertkit.com/affiliates", "commission": "30% recurring for 2 years", "cookie_days": 60, "niche": "Email marketing", "priority": 2},
+      {"name": "Cloudways", "url": "https://cloudways.com/affiliates/", "commission": "Up to $125/referral + 5% recurring", "cookie_days": 60, "niche": "Cloud hosting", "priority": 2},
+      {"name": "Jasper AI", "url": "https://jasper.ai/affiliates/", "commission": "30% first month or $59/referral", "cookie_days": 90, "niche": "AI writing", "priority": 2}
+    ],
+    "amazon": {
+      "base_rate": "4% general, up to 10% luxury beauty",
+      "best_categories": ["books (4.5%)", "luxury beauty (10%)", "apparel (4%)", "kitchen (4.5%)", "home (3%)"],
+      "bounty": {"prime_trial": "$3", "prime_video": "$5"}
+    }
+  },
+  "china": {
+    "taobao_ke": {"platform": "淘宝联盟", "url": "pub.alimama.com", "commission": "1-50%", "payout_min": "¥100", "note": "Digital goods up to 50%"},
+    "jd_union": {"platform": "京东联盟", "url": "union.jd.com", "commission": "1-12%", "payout_min": "¥100", "note": "Books/baby 4-10%"},
+    "zhihu": {"platform": "知乎好物推荐", "url": "zhihu.com", "require_days": 90, "note": "Need 90-day account, embed 淘宝/JD links"}
+  }
+}

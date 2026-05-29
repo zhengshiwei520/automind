@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMind — AI-Powered Company</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+        
+        /* Hero */
+        .hero {
+            padding: 6rem 0 4rem;
+            text-align: center;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #888;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .hero .badge {
+            display: inline-block;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 0.5rem 1.5rem;
+            border-radius: 100px;
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-top: 1.5rem;
+        }
+        .hero .badge span { color: #22c55e; }
+        
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            padding: 3rem 0;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .stat {
+            text-align: center;
+            padding: 1.5rem;
+            background: #111;
+            border-radius: 12px;
+            border: 1px solid #1a1a1a;
+        }
+        .stat .number { font-size: 2rem; font-weight: 700; color: #fff; }
+        .stat .label { font-size: 0.85rem; color: #666; margin-top: 0.3rem; }
+        
+        /* Sections */
+        section { padding: 3rem 0; border-bottom: 1px solid #1a1a1a; }
+        section:last-child { border-bottom: none; }
+        h2 { font-size: 1.8rem; font-weight: 600; margin-bottom: 2rem; }
+        h2::before { content: '◆ '; color: #6366f1; }
+        
+        /* Products */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+        .product-card {
+            background: #111;
+            border: 1px solid #1a1a1a;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: border-color 0.2s;
+        }
+        .product-card:hover { border-color: #333; }
+        .product-card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .product-card .price {
+            display: inline-block;
+            background: #6366f1;
+            color: #fff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        .product-card p { font-size: 0.9rem; color: #888; }
+        .product-card .status {
+            display: inline-block;
+            font-size: 0.8rem;
+            color: #22c55e;
+            margin-top: 0.75rem;
+        }
+        
+        /* Articles */
+        .article-list { list-style: none; }
+        .article-list li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #1a1a1a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .article-list li:last-child { border-bottom: none; }
+        .article-list .title { color: #e0e0e0; }
+        .article-list .words { color: #666; font-size: 0.85rem; }
+        
+        /* Roadmap */
+        .roadmap { list-style: none; }
+        .roadmap li {
+            padding: 0.75rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .roadmap .check { color: #22c55e; }
+        .roadmap .pending { color: #555; }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 3rem 0;
+            color: #555;
+            font-size: 0.85rem;
+        }
+        
+        /* Live indicator */
+        .live-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #22c55e;
+            border-radius: 50%;
+            margin-right: 6px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .stats { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Hero -->
+        <div class="hero">
+            <h1>AutoMind</h1>
+            <p>An AI-first company building tools, content, and services — entirely powered by artificial intelligence. Starting from zero.</p>
+            <div class="badge">
+                <span class="live-dot"></span> System Online · Mac mini M4 · 24/7
+            </div>
+        </div>
+        
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat">
+                <div class="number">6</div>
+                <div class="label">Articles Published</div>
+            </div>
+            <div class="stat">
+                <div class="number">3</div>
+                <div class="label">Digital Products</div>
+            </div>
+            <div class="stat">
+                <div class="number">14.5K</div>
+                <div class="label">Words Written</div>
+            </div>
+            <div class="stat">
+                <div class="number">$0</div>
+                <div class="label">Revenue to Date</div>
+            </div>
+        </div>
+        
+        <!-- Products -->
+        <section>
+            <h2>Digital Products</h2>
+            <p style="color:#888;margin-bottom:2rem;">AI-crafted prompt packs for professionals. Coming to Gumroad.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="price">$24</div>
+                    <h3>200 ChatGPT Prompts for Digital Marketing</h3>
+                    <p>8 categories covering social media, email, SEO, copywriting, market research, ads, strategy, and analytics.</p>
+                    <div class="status">✅ Ready to list</div>
+                </div>
+                <div class="product-card">
+                    <div class="price">$17</div>
+                    <h3>150 AI Prompts for Content Creators</h3>
+                    <p>Blog posts, video scripts, newsletters, social media, SEO, and more — 150 ready-to-use prompts.</p>
+                    <div class="status">✅ Ready to list</div>
+                </div>
+                <div class="product-card">
+                    <div class="price">$19</div>
+                    <h3>100 Prompts for Software Developers</h3>
+                    <p>Optimized for Claude & ChatGPT. Code generation, debugging, architecture, testing, DevOps, and more.</p>
+                    <div class="status">✅ Ready to list</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Articles -->
+        <section>
+            <h2>Content Assets</h2>
+            <p style="color:#888;margin-bottom:2rem;">SEO-optimized articles generating passive income through SaaS affiliate programs.</p>
+            <ul class="article-list">
+                <li>
+                    <span class="title">Best AI Writing Tools in 2026</span>
+                    <span class="words">2,500 words · Writesonic 30% recurring</span>
+                </li>
+                <li>
+                    <span class="title">Best Web Hosting for Beginners 2026</span>
+                    <span class="words">2,000 words · Hostinger 60% first purchase</span>
+                </li>
+                <li>
+                    <span class="title">Semrush vs Ahrefs vs Moz: SEO Tools 2026</span>
+                    <span class="words">3,000 words · Semrush 40% first purchase</span>
+                </li>
+                <li>
+                    <span class="title">Best AI Image Generators in 2026</span>
+                    <span class="words">2,500 words · Canva $36/referral</span>
+                </li>
+                <li>
+                    <span class="title">Email Marketing for Small Business 2026</span>
+                    <span class="words">2,000 words · ConvertKit 30% recurring</span>
+                </li>
+                <li>
+                    <span class="title">Shopify vs WooCommerce vs BigCommerce 2026</span>
+                    <span class="words">3,000 words · Shopify ~$58/referral</span>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- Roadmap -->
+        <section>
+            <h2>Development Roadmap</h2>
+            <ul class="roadmap">
+                <li><span class="check">✅</span> Content & product infrastructure</li>
+                <li><span class="check">✅</span> 6 SEO-optimized articles</li>
+                <li><span class="check">✅</span> 3 premium digital products</li>
+                <li><span class="check">✅</span> Company brand & website</li>
+                <li><span class="pending">⬜</span> Gumroad storefront active</li>
+                <li><span class="pending">⬜</span> Articles published on Medium</li>
+                <li><span class="pending">⬜</span> First dollar earned</li>
+                <li><span class="pending">⬜</span> SaaS MVP launched</li>
+                <li><span class="pending">⬜</span> $100/month recurring</li>
+                <li><span class="pending">⬜</span> $500/month recurring</li>
+                <li><span class="pending">⬜</span> $1,000+/month recurring</li>
+            </ul>
+        </section>
+        
+        <!-- Tech -->
+        <section>
+            <h2>Stack</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>🤖 AI Models</h3>
+                    <p>Claude · GPT · DeepSeek</p>
+                </div>
+                <div class="product-card">
+                    <h3>⚙️ Automation</h3>
+                    <p>Python · Cron · Hermes Agent</p>
+                </div>
+                <div class="product-card">
+                    <h3>🖥️ Hardware</h3>
+                    <p>Mac mini M4 · 24GB · 24/7</p>
+                </div>
+                <div class="product-card">
+                    <h3>🚀 Distribution</h3>
+                    <p>Gumroad · Medium · GitHub</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="footer">
+            AutoMind — Built with AI from scratch. No funding. No employees. Just intelligence.
+        </div>
+        
+    </div>
+</body>
+</html>

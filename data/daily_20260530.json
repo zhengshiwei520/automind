@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-30",
+  "time": "00:42:24",
+  "system": {
+    "status": "online",
+    "host": "Mac mini M4",
+    "uptime_days": "N/A"
+  },
+  "content": {
+    "total_articles": 6,
+    "total_words": 20268,
+    "by_date": {
+      "2026-05-30": {
+        "articles": 6,
+        "words": 20268
+      }
+    }
+  },
+  "products": {
+    "count": 3,
+    "items": [
+      {
+        "name": "# 150 AI Prompts for Content Creators & Bloggers — Product Description",
+        "price": "",
+        "file": "content-creator-description.md"
+      },
+      {
+        "name": "# Product Description — 200 ChatGPT Prompts for Digital Marketing (2026 Edition)",
+        "price": "",
+        "file": "marketing-description.md"
+      },
+      {
+        "name": "# 100 Claude & ChatGPT Prompts for Software Developers",
+        "price": "",
+        "file": "developer-description.md"
+      }
+    ]
+  },
+  "revenue": {
+    "total": 0.0,
+    "today": 0.0,
+    "by_source": {}
+  },
+  "tasks": {
+    "completed_today": 0,
+    "failed_today": 0
+  }
+}
